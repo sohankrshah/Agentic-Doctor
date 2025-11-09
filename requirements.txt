@@ -12,7 +12,8 @@ streamlit-chat
 pydicom
 nibabel
 Pillow
-opencv-python
+opencv-python-headless
+
 
 # Document Processing
 pdfplumber
@@ -33,5 +34,6 @@ python-dotenv
 # Additional utilities
 pathlib
 transformers
+
 
 
