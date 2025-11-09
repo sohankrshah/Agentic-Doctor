@@ -10,8 +10,8 @@ streamlit-chat
 # Medical Image Processing
 pydicom
 nibabel
-opencv-python
 Pillow
+opencv-python
 
 # Document Processing
 pdfplumber
@@ -32,3 +32,4 @@ python-dotenv
 # Additional utilities
 pathlib
 transformers
+
