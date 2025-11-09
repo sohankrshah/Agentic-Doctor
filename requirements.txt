@@ -32,4 +32,5 @@ python-dotenv==1.0.1
 # Additional utilities
 pathlib
 
-transformer
+
+transformers
