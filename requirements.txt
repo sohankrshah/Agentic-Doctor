@@ -1,5 +1,4 @@
 # Core Framework
-libgl1
 crewai
 crewai-tools
 langchain-openai
@@ -34,6 +33,7 @@ python-dotenv
 # Additional utilities
 pathlib
 transformers
+
 
 
 
