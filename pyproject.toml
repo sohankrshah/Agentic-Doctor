@@ -1,0 +1,24 @@
+[project]
+name = AGENTIC_DOCTOR"
+version = "0.1.0"
+description = AGENTIC_DOCTOR using crewAI"
+authors = [{ name = "Sohan kr Shah", email = "mail.sohankrshah@gmail.com" }]
+requires-python = "==3.11"
+dependencies = [
+    "crewai[tools]==1.3.0"
+]
+
+[project.scripts]
+AGENTIC_DOCTOR = AGENTIC_DOCTOR.main:run"
+run_crew = AGENTIC_DOCTOR.main:run"
+train = AGENTIC_DOCTOR.main:train"
+replay = AGENTIC_DOCTOR.main:replay"
+test = AGENTIC_DOCTOR.main:test"
+run_with_trigger = AGENTIC_DOCTOR.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
