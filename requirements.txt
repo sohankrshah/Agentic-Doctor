@@ -1,36 +1,34 @@
 # Core Framework
-crewai==0.28.8
-crewai-tools==0.1.6
-langchain-openai==0.0.5
+crewai
+crewai-tools
+langchain-openai
 
 # Streamlit UI
-streamlit==1.31.0
-streamlit-chat==0.1.1
+streamlit
+streamlit-chat
 
 # Medical Image Processing
-pydicom==2.4.4
-nibabel==5.2.0
-opencv-python==4.9.0.80
-Pillow==10.2.0
+pydicom
+nibabel
+opencv-python
+Pillow
 
 # Document Processing
-pdfplumber==0.10.3
-pytesseract==0.3.10
-fpdf==1.7.2
+pdfplumber
+pytesseract
+fpdf
 
 # PubMed Integration
-biopython==1.83
+biopython
 
 # Data Processing
-numpy==1.26.3
-pandas==2.2.0
-matplotlib==3.8.2
+numpy
+pandas
+matplotlib
 
 # Environment Management
-python-dotenv==1.0.1
+python-dotenv
 
 # Additional utilities
 pathlib
-
-
 transformers
