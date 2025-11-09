@@ -33,6 +33,8 @@ python-dotenv
 # Additional utilities
 pathlib
 transformers
+torch
+
 
 
 
